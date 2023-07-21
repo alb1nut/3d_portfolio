@@ -202,14 +202,14 @@ const testimonials = [
     company: "ViztaEdu",
     image: samuel,
   },
-  // {
-  //   testimonial:
-  //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-  //   name: "Lisa Wang",
-  //   designation: "CTO",
-  //   company: "456 Enterprises",
-  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
-  // },
+  {
+    testimonial:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam",
+    name: "Caleb Yankey",
+    designation: "CMO",
+    company: "ViztaEdu Ltd",
+    image: "",
+  },
 ];
 
 const projects = [
@@ -274,7 +274,7 @@ const projects = [
   {
     name: "ViztaEdu Mobile App",
     description:
-      "ViztaEdu is a social media-based educational mobile and web-based app for tertiary-level students to share their educational journeys, share and collaborate on projects, access gamified learning features and impact other students worldwide.Born as a result of the COVID-19 pandemic, ViztaEdu embraces the new era of students who are not limited by their boundaries on their impact and career journey.​",
+      "ViztaEdu is a social media-based educational mobile and web-based app for tertiary-level students to share their educational journeys, share and collaborate on projects, access gamified learning features and impact other students worldwide.​",
     tags: [
       {
         name: "reactnative",
