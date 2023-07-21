@@ -35,9 +35,15 @@ import viztaedu from "./company/viztaedu.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import mobileapp from "./mobileapp.png";
+import prodely from "./prodely.png";
+import shirt from "./shirt.png"
 
 export {
   logo,
+  mobileapp,
+  prodely,
+  shirt,
   logobgwhite,
   backend,
   creator,

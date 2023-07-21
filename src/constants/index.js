@@ -15,15 +15,15 @@ import {
   git,
   figma,
   docker,
-  openai,
-  python,
-  reactnative,
   meta,
   gtl,
   viztaedu,
   starbucks,
   tesla,
   shopify,
+  mobileapp,
+  prodely,
+  shirt,
   carrent,
   jobit,
   tripguide,
@@ -90,8 +90,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Python",
-    icon: python,
+    name: "Redux Toolkit",
+    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -106,8 +106,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Openai",
-    icon: openai,
+    name: "Three JS",
+    icon: threejs,
   },
   {
     name: "git",
@@ -120,10 +120,6 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
-  },
-  {
-    name: "React Native",
-    icon: reactnative,
   },
 ];
 
@@ -141,7 +137,7 @@ const experiences = [
       "Developing a backend API using FastAPI in Python to connect the frontend to the database.",
       "Containerizing the web application and backend API using Docker for easy deployment and scalability.",
       "Using  Git and collaborating with the development team to manage codebase changes effectively.",
-      "Staying up-to-date with the latest advancements in web development, AI embeddings, and relevant technologies to improve the application's features and performance."
+      "Staying up-to-date with the latest advancements in web development, AI embeddings, and relevant technologies to improve the application's features and performance.",
     ],
   },
   {
@@ -156,7 +152,7 @@ const experiences = [
       "Creating a user-friendly and interactive platform where students can post educational content, ask and answer questions, and interact with each other in a social media format similar to TikTok.",
       " Integrating Firebase database and Firebase Authentication for user registration, login, and data storage.",
       "Working with UX designers to implement intuitive and seamless user experiences that cater to the target audience of students.",
-      "Participating in the SDG  Innovation Challenge and Ghana Startup Summits to showcase the app's achievements and gathering recognition for the team's efforts."
+      "Participating in the SDG  Innovation Challenge and Ghana Startup Summits to showcase the app's achievements and gathering recognition for the team's efforts.",
     ],
   },
   // {
@@ -216,33 +212,37 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "3D Shirt Design",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to create unique and exclusive shirt designs with 3D customisation tool and AI prompts",
     tags: [
       {
-        name: "react",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "threejs",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "openai",
+        color: "grey-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: shirt,
+    source_code_link: "https://github.com/alb1nut/shirt_design_ai_frontend.git",
   },
   {
-    name: "Job IT",
+    name: "Prodely",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An AI-powered project virtual assistant  that enables students to search from a database of research materials with the aid of AI and provide the exact research questions needed by the students",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
@@ -250,33 +250,50 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "materialui",
         color: "pink-text-gradient",
       },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
       {
-        name: "nextjs",
+        name: "pinecone",
+        color: "white-text-gradient",
+      },
+      {
+        name: "openai",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "docker",
+        color: "green-text-gradient",
+      },
+    ],
+    image: prodely,
+    source_code_link: "https://www.prodely.viztaedu.com/",
+  },
+  {
+    name: "ViztaEdu Mobile App",
+    description:
+      "ViztaEdu is a social media-based educational mobile and web-based app for tertiary-level students to share their educational journeys, share and collaborate on projects, access gamified learning features and impact other students worldwide.Born as a result of the COVID-19 pandemic, ViztaEdu embraces the new era of students who are not limited by their boundaries on their impact and career journey.​",
+    tags: [
+      {
+        name: "reactnative",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "gamification",
         color: "pink-text-gradient",
       },
+      {
+        name: "edtech",
+        color: "white-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: mobileapp,
+    source_code_link:
+      "https://play.google.com/store/apps/details?id=com.viztaedu.app",
   },
 ];
 
