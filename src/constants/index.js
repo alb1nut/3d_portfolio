@@ -15,6 +15,9 @@ import {
   git,
   figma,
   docker,
+  openai,
+  python,
+  reactnative,
   meta,
   gtl,
   viztaedu,
@@ -87,8 +90,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Python",
+    icon: python,
   },
   {
     name: "Tailwind CSS",
@@ -103,8 +106,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Openai",
+    icon: openai,
   },
   {
     name: "git",
@@ -117,6 +120,10 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "React Native",
+    icon: reactnative,
   },
 ];
 

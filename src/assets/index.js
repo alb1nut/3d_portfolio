@@ -21,6 +21,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import openai from "./tech/openai.png";
+import reactnative from "./tech/reactnative.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -45,7 +48,9 @@ export {
   close,
   css,
   docker,
+  openai,
   figma,
+  reactnative,
   git,
   html,
   javascript,
@@ -55,6 +60,7 @@ export {
   redux,
   tailwind,
   typescript,
+  python,
   threejs,
   meta,
   gtl,
