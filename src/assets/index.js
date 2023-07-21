@@ -39,7 +39,13 @@ import mobileapp from "./mobileapp.png";
 import prodely from "./prodely.png";
 import shirt from "./shirt.png"
 
+
+import samuel from "./samuel.jpeg";
+import akweley from "./akweley.jpeg";
+
 export {
+  samuel,
+  akweley,
   logo,
   mobileapp,
   prodely,
